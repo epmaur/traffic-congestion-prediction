@@ -5,7 +5,7 @@ Video frame rate is 25 frames per second
 The first red light is fixed manually, further red lights are calculated using the cycle length
 In this example video the first red light of the driving direction of interest is at 01:09
 """
-vidcap = cv2.VideoCapture('../example_video/20180503080000-20180503100000_trimmed.mp4')
+vidcap = cv2.VideoCapture('../example_video/20180503080000-20180503100000.mp4')
 success, image = vidcap.read()
 count = 0
 frames = 0

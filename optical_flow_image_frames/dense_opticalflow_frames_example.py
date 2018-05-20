@@ -7,7 +7,7 @@ The first red light is fixed manually, further red lights are calculated using t
 In this example video the first red light of the driving direction of interest is at 01:09
 """
 
-cap = cv2.VideoCapture('../example_video/20180503080000-20180503100000_trimmed.mp4')
+cap = cv2.VideoCapture('../example_video/20180503080000-20180503100000.mp4')
 ret, frame1 = cap.read()
 frame1 = frame1[200:800, 1000:1900]
 prvs = cv2.cvtColor(frame1, cv2.COLOR_BGR2GRAY)
