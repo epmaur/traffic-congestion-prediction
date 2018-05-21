@@ -1,6 +1,11 @@
 import numpy as np
 import cv2
 
+"""
+NB! Folder example video exists only in Github repository due to file size capacity in ained.ttu.ee! 
+https://github.com/epmaur/traffic-congestion-prediction/tree/master/example_video
+"""
+
 cap = cv2.VideoCapture('../example_video/20180503080000-20180503100000.mp4')
 # params for ShiTomasi corner detection
 feature_params = dict( maxCorners = 100,

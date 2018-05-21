@@ -5,10 +5,13 @@ import cv2
 
 """
 Using the raw_image_frames_example.py the needed frames are cut out of the video.
-and are in a folder (called 'raw_image' in this example).
+and are in a folder (called 'example_images/raw_image' in this example).
 The files are divided into train and test folder manually.
 Each file name contains "yes" or "no" representing if the intersection was congested or not.
 Based on "yes" or "no" the correct label is attached (0 represents "no", 1 represents "yes".
+
+NB! Folder example images exists only in Github repository due to file size capacity in ained.ttu.ee! 
+https://github.com/epmaur/traffic-congestion-prediction/tree/master/example_images
 """
 
 shuffle_data = True  # shuffle the addresses before saving

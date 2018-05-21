@@ -6,6 +6,11 @@ from tensorflow.python.framework import ops
 
 np.random.seed(1)
 
+"""
+NB! Datasets exist only in Github repository due to file size capacity in ained.ttu.ee! 
+https://github.com/epmaur/traffic-congestion-prediction/tree/master/datasets
+"""
+
 
 def load_dataset():
     dataset = h5py.File('../datasets/raw_image_dataset.hdf5', "r")

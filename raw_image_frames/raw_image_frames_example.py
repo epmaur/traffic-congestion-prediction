@@ -4,6 +4,9 @@ Script to cut out raw images frames 4 seconds before cycle ends
 Video frame rate is 25 frames per second
 The first red light is fixed manually, further red lights are calculated using the cycle length
 In this example video the first red light of the driving direction of interest is at 01:09
+
+NB! Folder example video exists only in Github repository due to file size capacity in ained.ttu.ee! 
+https://github.com/epmaur/traffic-congestion-prediction/tree/master/example_video
 """
 vidcap = cv2.VideoCapture('../example_video/20180503080000-20180503100000.mp4')
 success, image = vidcap.read()

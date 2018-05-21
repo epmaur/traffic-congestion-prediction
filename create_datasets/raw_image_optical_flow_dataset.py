@@ -13,6 +13,9 @@ Example folders can be seen under 'example_images/optical_flow_raw_image'.
 Each folder name contains "yes" or "no" representing if the intersection was congested or not.
 Based on "yes" or "no" the correct label is attached (0 represents "no", 1 represents "yes".
 The folders are divided into train and test folders manually.
+
+NB! Folder example images exists only in Github repository due to file size capacity in ained.ttu.ee! 
+https://github.com/epmaur/traffic-congestion-prediction/tree/master/example_images
 """
 
 
